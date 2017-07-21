@@ -1,0 +1,10 @@
+librepcb.pnd
+
+# Others
+.DS_Store
+Thumbs.db
+*~
+*.pro.user*
+*.autosave
+.~lock.*
+*.swp
