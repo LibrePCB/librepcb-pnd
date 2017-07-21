@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<component>
+ <meta>
+  <uuid>fd75cd4c-8b11-4f06-8fa7-498e345f5248</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-06-21T12:37:43Z</created>
+  <last_modified>2015-06-21T12:37:43Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">Trimmer Capacitor</name>
+  <description locale="en_US"></description>
+  <keywords locale="en_US"></keywords>
+  <category>c011cc6b-b762-498e-8494-d1994f3043cf</category>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">C</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="7950f37e-3fc4-4910-9f8f-27ee3b59dc89">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="0aaecffd-ef4a-417b-a142-8a1093ce83b3">E</signal>
+ </signals>
+ <symbol_variants default="610316bf-830d-4933-b5ed-fd53803afe62">
+  <variant norm="" uuid="610316bf-830d-4933-b5ed-fd53803afe62">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="" symbol="ccca4631-4d89-491d-ae31-6423cde4571c" uuid="c6eff965-d409-45ed-9eea-8fa40fac4b2e">
+     <pin_signal_map>
+      <map display="none" pin="18884b25-28e3-4449-a906-eaf6756398cf">0aaecffd-ef4a-417b-a142-8a1093ce83b3</map>
+      <map display="none" pin="1b5d5845-d043-442f-bfaa-25f8fdee8997">7950f37e-3fc4-4910-9f8f-27ee3b59dc89</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

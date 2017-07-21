@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<component>
+ <meta>
+  <uuid>b4f7c396-e6e7-407c-9e91-44996137c332</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-03-04T21:27:40Z</created>
+  <last_modified>2015-03-04T21:27:40Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">Zener Diode</name>
+  <description locale="en_US"></description>
+  <keywords locale="en_US"></keywords>
+  <category>4d1c95f4-2e60-4f50-a15b-ba9186a01b1a</category>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="e426246c-e943-4756-8039-ae424db9454a">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="be312176-0bda-48f5-b2ca-eda262a7cdad">C</signal>
+ </signals>
+ <symbol_variants default="d039b47e-5575-4fe2-b42e-9431f103058b">
+  <variant norm="" uuid="d039b47e-5575-4fe2-b42e-9431f103058b">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="" symbol="d7a60962-0f8b-44e9-831b-dd7bca1649b0" uuid="343a59cd-7b10-4351-a0d3-5149afbc3c78">
+     <pin_signal_map>
+      <map display="none" pin="bcc4ce5f-1594-4790-be6a-b42e9f0ddea3">be312176-0bda-48f5-b2ca-eda262a7cdad</map>
+      <map display="none" pin="e72b6a12-69fb-44b7-ba93-b164352f614f">e426246c-e943-4756-8039-ae424db9454a</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

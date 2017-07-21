@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PXML xmlns="http://openpandora.org/namespaces/PXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PXML_schema.xsd">
+  <package id="librepcb">
+   <author name="ubruhin" website="http://librepcb.org"/>
+   <version major="0" minor="0" release="2" build="3" type="alpha"/>
+   <titles>
+    <title lang="en_US">LibrePCB</title>
+   </titles>
+   <descriptions>
+    <description lang="en_US">LibrePCB is a free EDA software to develop printed circuit boards. It runs on Linux, Windows and Mac. The project is still in a quite early development stage (no stable release available).
+
+Features:
+- Cross-platform (Unix/Linux, Mac OS X, Windows)
+- Multilingual (both application and library elements)
+- All-In-One: project management + library/schematic/board editors
+- Intuitive, modern and easy-to-use graphical user interface
+- Very powerful library design with some innovative concepts
+- Human-readable file formats for both libraries and projects
+- Multi-PCB feature (different PCB variants of the same schematic)
+- Automatic netlist synchronisation between schematic and board</description>
+   </descriptions>
+   <icon src="icon.png"/>
+  </package>
+
+  <application id="librepcb" appdata="librepcb">
+    <title lang="en_US">LibrePCB</title>
+    <exec command="start.sh"/>
+    <description lang="en_US">LibrePCB is a free EDA software to develop printed circuit boards. It runs on Linux, Windows and Mac. The project is still in a quite early development stage (no stable release available).
+
+Features:
+- Cross-platform (Unix/Linux, Mac OS X, Windows)
+- Multilingual (both application and library elements)
+- All-In-One: project management + library/schematic/board editors
+- Intuitive, modern and easy-to-use graphical user interface
+- Very powerful library design with some innovative concepts
+- Human-readable file formats for both libraries and projects
+- Multi-PCB feature (different PCB variants of the same schematic)
+- Automatic netlist synchronisation between schematic and board</description>
+    <version major="0" minor="0" release="2" build="3" type="alpha"/>
+    <previewpics>
+        <pic src="previews/preview1.png"/>
+        <pic src="previews/preview2.png"/>
+        <pic src="previews/preview3.png"/>
+        <pic src="previews/preview4.png"/>
+    </previewpics>
+    <licenses>
+     <license name="GPLv3" url="http://www.gnu.org/licenses/gpl.html" sourcecodeurl="https://github.com/LibrePCB/LibrePCB"/>
+    </licenses>
+    <icon src="icon.png"/>
+    <author name="ubruhin" />
+    <categories>
+      <category name="Development">
+      </category>
+    </categories>
+  </application>
+
+</PXML>
+

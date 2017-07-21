@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<component>
+ <meta>
+  <uuid>0791310f-63fb-4d8f-8266-ee309d8e5016</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-03-11T20:58:56Z</created>
+  <last_modified>2015-03-11T20:58:56Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">1x6P Male Connector</name>
+  <description locale="en_US"></description>
+  <keywords locale="en_US"></keywords>
+  <category>22fbb140-85e4-46cc-a550-68ae2dc58b1a</category>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">ST</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="6651a454-c542-48fc-9056-518546c904dd">3</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="60a3f21c-4a89-4dad-b4bf-6c756c7df09d">5</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="0b9eae8a-63ad-4582-94c9-fe30266c86d1">6</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="79ad9275-7895-4708-8d6b-3b502a404269">4</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="cb80ea12-5702-4ad3-b7bf-662544403995">2</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="false" role="passive" uuid="54aea1a2-260b-4cb1-a541-bac92a0457f2">1</signal>
+ </signals>
+ <symbol_variants default="bfb9d5a0-9074-49de-a073-69ca2ffa4596">
+  <variant norm="" uuid="bfb9d5a0-9074-49de-a073-69ca2ffa4596">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="" symbol="4deffb53-5b06-4f16-a787-37cb6da6de77" uuid="cc7febf5-14a9-43fc-a63d-5f31626c202b">
+     <pin_signal_map>
+      <map display="component_signal" pin="12c2964d-e6b6-44d2-b9e9-671effe7e824">6651a454-c542-48fc-9056-518546c904dd</map>
+      <map display="component_signal" pin="401259c8-2526-4d8f-ba53-856128bc4cd5">79ad9275-7895-4708-8d6b-3b502a404269</map>
+      <map display="component_signal" pin="97fbca8a-456c-4bad-8b8a-ab33132f6ffd">60a3f21c-4a89-4dad-b4bf-6c756c7df09d</map>
+      <map display="component_signal" pin="b9af3f05-bc03-4ead-bb16-b4021d5a1326">cb80ea12-5702-4ad3-b7bf-662544403995</map>
+      <map display="component_signal" pin="d69e8604-dc2f-42eb-ae01-63ede51e07a1">0b9eae8a-63ad-4582-94c9-fe30266c86d1</map>
+      <map display="component_signal" pin="ee7fd904-6f17-4b59-9d08-5a5bbded41cc">54aea1a2-260b-4cb1-a541-bac92a0457f2</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

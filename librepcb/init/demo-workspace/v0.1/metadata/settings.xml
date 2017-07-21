@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<workspace_settings>
+ <app_locale></app_locale>
+ <app_default_meas_units>
+  <length_unit>millimeters</length_unit>
+ </app_default_meas_units>
+ <project_autosave_interval>600</project_autosave_interval>
+ <appearance>
+  <use_opengl>false</use_opengl>
+ </appearance>
+ <lib_locale_order>
+  <locale>en_US</locale>
+ </lib_locale_order>
+ <lib_norm_order/>
+ <debug_tools/>
+</workspace_settings>

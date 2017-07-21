@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<component>
+ <meta>
+  <uuid>b847a54b-a83e-47ff-a976-7704bf05bbf4</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-03-08T15:39:55Z</created>
+  <last_modified>2015-03-08T15:39:55Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">Crystal</name>
+  <description locale="en_US"></description>
+  <keywords locale="en_US"></keywords>
+  <category>39d4b3d6-4168-4fe2-9420-fbf7eb3ac248</category>
+ </meta>
+ <attributes>
+  <attribute key="FREQUENCY" type="frequency" unit="megahertz"></attribute>
+ </attributes>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">Q</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="878301c2-bacc-4ffa-923c-ef5b1f06e5fe">1</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="fd760be8-09ce-411f-a869-fdc1e74229a9">2</signal>
+ </signals>
+ <symbol_variants default="1b3fc3ac-2d19-4f11-809a-5c662b3111b8">
+  <variant norm="" uuid="1b3fc3ac-2d19-4f11-809a-5c662b3111b8">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="" symbol="986f38ca-ea17-4c03-97a6-b7d5fc7d8012" uuid="2408ccc8-11f8-461c-9752-32f4383c2ff6">
+     <pin_signal_map>
+      <map display="none" pin="2fa806c9-af1c-457c-a92f-3459e6131fbc">fd760be8-09ce-411f-a869-fdc1e74229a9</map>
+      <map display="none" pin="ac7d1cc8-4a9e-4936-ab7c-ed70c7347195">878301c2-bacc-4ffa-923c-ef5b1f06e5fe</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

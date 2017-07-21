@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<component>
+ <meta>
+  <uuid>1f78bc58-4de2-4cd5-9408-15756f3dca5b</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-06-21T12:37:45Z</created>
+  <last_modified>2015-06-21T12:37:45Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">Crystal Resonator</name>
+  <description locale="en_US"></description>
+  <keywords locale="en_US"></keywords>
+  <category>39d4b3d6-4168-4fe2-9420-fbf7eb3ac248</category>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">QG</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="36ae0a72-34bc-48c2-b666-bc517281b3a4">GND</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="724ff4d7-851e-4911-a4c1-94df804b8c8f">OUT</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="18a64307-7af5-41bf-82ed-dd2d0ae9ff3c">VCC</signal>
+ </signals>
+ <symbol_variants default="96a3bf29-ac72-417c-a880-71062426169b">
+  <variant norm="" uuid="96a3bf29-ac72-417c-a880-71062426169b">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="" symbol="529f49ff-3117-4163-9ace-b68e82440707" uuid="9b407767-a909-4e08-9a08-37ea3ed2eee2">
+     <pin_signal_map>
+      <map display="component_signal" pin="26aa46ae-ecb4-456c-a410-fe6aabc8fec9">18a64307-7af5-41bf-82ed-dd2d0ae9ff3c</map>
+      <map display="component_signal" pin="3a4f3e19-cb51-4eea-a346-acec304838b1">724ff4d7-851e-4911-a4c1-94df804b8c8f</map>
+      <map display="component_signal" pin="c958a1db-6f38-4c04-85fe-48b6dc653921">36ae0a72-34bc-48c2-b666-bc517281b3a4</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>

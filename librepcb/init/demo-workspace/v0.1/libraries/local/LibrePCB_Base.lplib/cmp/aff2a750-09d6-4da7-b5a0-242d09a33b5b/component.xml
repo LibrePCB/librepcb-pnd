@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<component>
+ <meta>
+  <uuid>aff2a750-09d6-4da7-b5a0-242d09a33b5b</uuid>
+  <version>0.1</version>
+  <author>LibrePCB</author>
+  <created>2015-06-21T12:37:47Z</created>
+  <last_modified>2015-06-21T12:37:47Z</last_modified>
+  <deprecated>false</deprecated>
+  <name locale="en_US">Capacity Diode</name>
+  <description locale="en_US"></description>
+  <keywords locale="en_US"></keywords>
+  <category>4d1c95f4-2e60-4f50-a15b-ba9186a01b1a</category>
+ </meta>
+ <attributes/>
+ <properties>
+  <schematic_only>false</schematic_only>
+  <default_value locale="en_US"></default_value>
+  <prefix norm="">D</prefix>
+ </properties>
+ <signals>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="cb5624b3-3930-4ac4-8da5-1bf2f89ea788">A</signal>
+  <signal clock="false" forced_net_name="" negated="false" required="true" role="passive" uuid="30c6df94-bbea-4f7a-a817-5d8ee3ec7984">C</signal>
+ </signals>
+ <symbol_variants default="6bd1b9dd-6427-4217-9994-537e4c404e9a">
+  <variant norm="" uuid="6bd1b9dd-6427-4217-9994-537e4c404e9a">
+   <name locale="en_US">default</name>
+   <description locale="en_US"></description>
+   <symbol_items>
+    <item required="true" suffix="" symbol="6597da4b-0d3a-4002-8239-996dd850ce8b" uuid="f9b26cc5-9551-4b47-b9ce-c35e51bdf95a">
+     <pin_signal_map>
+      <map display="none" pin="75817588-f9d3-4a6b-b9da-fcb12d072d4a">cb5624b3-3930-4ac4-8da5-1bf2f89ea788</map>
+      <map display="none" pin="7b8901fb-4d1b-424a-ba1b-59ab9cf948be">30c6df94-bbea-4f7a-a817-5d8ee3ec7984</map>
+     </pin_signal_map>
+    </item>
+   </symbol_items>
+  </variant>
+ </symbol_variants>
+</component>
