@@ -2,7 +2,7 @@
 <PXML xmlns="http://openpandora.org/namespaces/PXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PXML_schema.xsd">
   <package id="librepcb">
    <author name="ubruhin" website="http://librepcb.org"/>
-   <version major="0" minor="0" release="2" build="3" type="alpha"/>
+   <version major="0" minor="0" release="3" build="1" type="alpha"/>
    <titles>
     <title lang="en_US">LibrePCB</title>
    </titles>
@@ -36,7 +36,7 @@ Features:
 - Human-readable file formats for both libraries and projects
 - Multi-PCB feature (different PCB variants of the same schematic)
 - Automatic netlist synchronisation between schematic and board</description>
-    <version major="0" minor="0" release="2" build="3" type="alpha"/>
+    <version major="0" minor="0" release="3" build="1" type="alpha"/>
     <previewpics>
         <pic src="previews/preview1.png"/>
         <pic src="previews/preview2.png"/>
