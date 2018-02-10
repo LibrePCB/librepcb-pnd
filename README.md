@@ -1,4 +1,4 @@
-# LibrePCB Packet for OpenPandora
+# LibrePCB Package for OpenPandora
 
 This repository contains everything to create the LibrePCB PND which can then be uploaded to the
 [OpenPandora Repo](https://repo.openpandora.org/?page=detail&app=librepcb).
