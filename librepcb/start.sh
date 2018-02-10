@@ -16,10 +16,4 @@ export XDG_DATA_HOME="$pwd/home"
 export XDG_CACHE_HOME="$pwd/home/cache"
 export XDG_CONFIG_HOME="$pwd/home/config"
 
-# initialize home directory when running the first time
-if [ ! -d home ] ; then
-    echo "Copy initial home directory, please wait..."
-    cp -r init home
-fi
-
 librepcb "$@"
