@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PXML xmlns="http://openpandora.org/namespaces/PXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PXML_schema.xsd">
   <package id="librepcb">
-   <author name="ubruhin" website="http://librepcb.org"/>
-   <version major="0" minor="0" release="4" build="1" type="alpha"/>
+   <author name="ubruhin" website="https://librepcb.org"/>
+   <version major="0" minor="1" release="0" build="1" type="release"/>
    <titles>
     <title lang="en_US">LibrePCB</title>
    </titles>
    <descriptions>
-    <description lang="en_US">LibrePCB is a free EDA software to develop printed circuit boards. It runs on Linux, Windows and Mac. The project is still in development stage (no stable release available).
+    <description lang="en_US">LibrePCB is a free EDA software to develop printed circuit boards. It runs on Linux, Windows and Mac.
 
 Features:
 - Cross-platform (Unix/Linux, Mac OS X, Windows)
@@ -25,7 +25,7 @@ Features:
   <application id="librepcb" appdata="librepcb">
     <title lang="en_US">LibrePCB</title>
     <exec command="start.sh"/>
-    <description lang="en_US">LibrePCB is a free EDA software to develop printed circuit boards. It runs on Linux, Windows and Mac. The project is still in development stage (no stable release available).
+    <description lang="en_US">LibrePCB is a free EDA software to develop printed circuit boards. It runs on Linux, Windows and Mac.
 
 Features:
 - Cross-platform (Unix/Linux, Mac OS X, Windows)
@@ -36,7 +36,7 @@ Features:
 - Human-readable file formats for both libraries and projects
 - Multi-PCB feature (different PCB variants of the same schematic)
 - Automatic netlist synchronisation between schematic and board</description>
-    <version major="0" minor="0" release="4" build="1" type="alpha"/>
+    <version major="0" minor="1" release="0" build="1" type="release"/>
     <previewpics>
         <pic src="previews/preview1.png"/>
         <pic src="previews/preview2.png"/>
