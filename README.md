@@ -17,16 +17,23 @@ Install [Code::Blocks Package](http://repo.openpandora.org/?page=detail&app=code
 4. `qmake5 -r ../librepcb.pro && make`
 
 
-## Build PND on Ubuntu
+## Package creation
 
-### Requirements
+### Dependencies on Ubuntu
 
 ```
 sudo apt install squashfs-tools
 ```
 
-### Building
+### Dependencies on Nixos
+
+```
+nix-shell -p squashfsTools
+```
+
+### Create the PND
 
 1. Increment build number in `PXML.xml`
-2. `./make.sh`
+2. Ensure i18n files are up to date
+3. `./make.sh`
 
