@@ -12,9 +12,9 @@ Install [Code::Blocks Package](http://repo.openpandora.org/?page=detail&app=code
 ### Build LibrePCB
 
 1. Start -> Development -> Dev Command Line Interface
-2. `cd /media/SD && wget https://download.librepcb.org/releases/0.1.5/librepcb-0.1.5-source.zip && unar librepcb-0.1.5.zip`
+2. `cd /media/SD && wget https://download.librepcb.org/releases/0.1.7/librepcb-0.1.7-source.zip && unzip librepcb-0.1.7.zip`
 3. `mkdir build && cd build`
-4. `qmake5 -r ../librepcb.pro && make`
+4. `cmake .. && make`
 
 
 ## Package creation
