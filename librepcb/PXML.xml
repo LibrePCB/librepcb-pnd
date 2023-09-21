@@ -7,7 +7,7 @@
     <title lang="en_US">LibrePCB</title>
    </titles>
    <descriptions>
-    <description lang="en_US">LibrePCB is a free EDA software to develop printed circuit boards. It runs on Linux, Windows and Mac.
+    <description lang="en_US">LibrePCB is a free EDA suite to develop printed circuit boards on Windows, Linux and MacOS.
 
 Features:
 - Cross-platform (Unix/Linux/BSD, macOS, Windows)
@@ -25,7 +25,7 @@ Features:
   <application id="librepcb" appdata="librepcb">
     <title lang="en_US">LibrePCB</title>
     <exec command="start.sh"/>
-    <description lang="en_US">LibrePCB is a free EDA software to develop printed circuit boards. It runs on Linux, Windows and Mac.
+    <description lang="en_US">LibrePCB is a free EDA suite to develop printed circuit boards on Windows, Linux and MacOS.
 
 Features:
 - Cross-platform (Unix/Linux/BSD, macOS, Windows)
