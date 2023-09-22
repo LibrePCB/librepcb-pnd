@@ -1,0 +1,34 @@
+diff --git a/libs/librepcb/core/geometry/zone.h b/libs/librepcb/core/geometry/zone.h
+index 1495a8bed..97de66441 100644
+--- a/libs/librepcb/core/geometry/zone.h
++++ b/libs/librepcb/core/geometry/zone.h
+@@ -44,14 +44,14 @@ class Zone final {
+   Q_DECLARE_TR_FUNCTIONS(Zone)
+ 
+ public:
+-  enum class Layer : quint32 {
++  enum Layer : quint32 {
+     Top = 1 << 0,
+     Inner = 1 << 1,
+     Bottom = 1 << 2,
+   };
+   Q_DECLARE_FLAGS(Layers, Layer)
+ 
+-  enum class Rule : quint32 {
++  enum Rule : quint32 {
+     NoCopper = (1 << 0),  ///< Except planes!
+     NoPlanes = (1 << 1),
+     NoExposure = (1 << 2),
+diff --git a/libs/librepcb/core/job/pickplaceoutputjob.h b/libs/librepcb/core/job/pickplaceoutputjob.h
+index 4dc65a662..954c53337 100644
+--- a/libs/librepcb/core/job/pickplaceoutputjob.h
++++ b/libs/librepcb/core/job/pickplaceoutputjob.h
+@@ -50,7 +50,7 @@ public:
+   using BoardSet = ObjectSet<Uuid>;
+   using AssemblyVariantSet = ObjectSet<Uuid>;
+ 
+-  enum class Technology : int {
++  enum Technology : int {
+     Tht = (1 << 0),
+     Smt = (1 << 1),
+     Mixed = (1 << 2),

@@ -12,10 +12,13 @@ Install [Code::Blocks Package](http://repo.openpandora.org/?page=detail&app=code
 ### Build LibrePCB
 
 1. Start -> Development -> Dev Command Line Interface
-2. `cd /media/SD && wget https://download.librepcb.org/releases/1.0.0/librepcb-1.0.0-source.zip && unzip librepcb-1.0.0.zip`
-3. `mkdir build && cd build`
-4. `cmake .. -DUSE_OPENCASCADE=0 -DLIBREPCB_REPRODUCIBLE=1 -DBUILD_TESTS=0 -DUSE_GLU=0`
-5. `make`
+2. `cd /media/SD`
+3. `wget https://download.librepcb.org/releases/1.0.0/librepcb-1.0.0-source.zip`
+4. `unzip librepcb-1.0.0.zip`
+5. Apply patch: `workaround-for-qt5-bug.patch`
+6. `mkdir build && cd build`
+7. `cmake .. -DUSE_OPENCASCADE=0 -DLIBREPCB_REPRODUCIBLE=1 -DBUILD_TESTS=0 -DUSE_GLU=0`
+8. `make`
 
 
 ## Package creation
