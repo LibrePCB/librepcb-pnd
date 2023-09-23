@@ -39,5 +39,6 @@ nix-shell -p squashfsTools
 
 1. Increment build number in `PXML.xml`
 2. Ensure i18n files are up to date
-3. `./make.sh`
+3. Ensure share folder is up to date
+4. `./make.sh`
 
