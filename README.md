@@ -17,8 +17,8 @@ Install [Code::Blocks Package](http://repo.openpandora.org/?page=detail&app=code
 4. `unzip librepcb-1.0.0.zip`
 5. Apply patches: `workaround-for-qt5-bug.patch` and `workaround-fix-linking-without-gl.patch`
 6. `mkdir build && cd build`
-7. Create some temporary output directory on a non fat32 partition: `mkdir /home/user/tmp`
-8. `cmake .. -DUSE_OPENCASCADE=0 -DLIBREPCB_REPRODUCIBLE=1 -DBUILD_TESTS=0 -DUSE_GLU=0 -DCMAKE_INSTALL_PREFIX=/home/user/tmp`
+7. Create some temporary output directory on a non fat32 partition: `mkdir /home/user/librepcb`
+8. `cmake .. -DUSE_OPENCASCADE=0 -DLIBREPCB_REPRODUCIBLE=1 -DBUILD_TESTS=0 -DUSE_GLU=0 -DCMAKE_INSTALL_PREFIX=/home/user/librepcb`
 9. Repeat last command for unknown reasons `!!`
 10. `make`
 11. `make install`
@@ -41,7 +41,7 @@ nix-shell -p squashfsTools
 ### Create the PND
 
 1. Increment build number in `PXML.xml`
-2. Use content: `/home/user/tmp`
+2. Use content: `/home/user/librepcb`
 3. Ensure i18n files are up to date
 4. Ensure share folder is up to date
 5. `./make.sh`
