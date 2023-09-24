@@ -46,3 +46,8 @@ nix-shell -p squashfsTools
 4. Ensure share folder is up to date
 5. `./make.sh`
 
+### Debugging the PND
+
+1. Mount the pnd: `/usr/pandora/scripts/pnd_run.sh -p /path/to/your/pnd/librepcb.pnd -m`
+2. Run the start.sh `./start.sh`
+
