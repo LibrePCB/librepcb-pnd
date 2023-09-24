@@ -18,7 +18,7 @@ Install [Code::Blocks Package](http://repo.openpandora.org/?page=detail&app=code
 5. Apply patches: `workaround-for-qt5-bug.patch` and `workaround-fix-linking-without-gl.patch`
 6. `mkdir build && cd build`
 7. Create some temporary output directory on a non fat32 partition: `mkdir /home/user/librepcb`
-8. `cmake .. -DUSE_OPENCASCADE=0 -DLIBREPCB_REPRODUCIBLE=1 -DBUILD_TESTS=0 -DUSE_GLU=0 -DCMAKE_INSTALL_PREFIX=/home/user/librepcb`
+8. `cmake .. -DUSE_OPENCASCADE=0 -DLIBREPCB_REPRODUCIBLE=1 -DBUILD_TESTS=0 -DUSE_GLU=0 -DBUILD_QTQUICK_TEST=0 -DCMAKE_INSTALL_PREFIX=/home/user/librepcb`
 9. Repeat last command for unknown reasons `!!`
 10. `make`
 11. `make install`
