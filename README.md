@@ -12,9 +12,16 @@ Install [Code::Blocks Package](http://repo.openpandora.org/?page=detail&app=code
 ### Build LibrePCB
 
 1. Start -> Development -> Dev Command Line Interface
-2. `cd /media/SD && wget https://download.librepcb.org/releases/0.1.7/librepcb-0.1.7-source.zip && unzip librepcb-0.1.7.zip`
-3. `mkdir build && cd build`
-4. `cmake .. && make`
+2. `cd /media/SD`
+3. `wget https://download.librepcb.org/releases/1.0.0/librepcb-1.0.0-source.zip`
+4. `unzip librepcb-1.0.0.zip`
+5. Apply patches: `workaround-for-qt5-bug.patch` and `workaround-fix-linking-without-gl.patch`
+6. `mkdir build && cd build`
+7. Create some temporary output directory on a non fat32 partition: `mkdir /home/user/librepcb`
+8. `cmake .. -DUSE_OPENCASCADE=0 -DLIBREPCB_REPRODUCIBLE=1 -DBUILD_TESTS=0 -DUSE_GLU=0 -DBUILD_QTQUICK_TEST=0 -DCMAKE_INSTALL_PREFIX=/home/user/librepcb`
+9. Repeat last command for unknown reasons `!!`
+10. `make`
+11. `make install`
 
 
 ## Package creation
@@ -34,6 +41,13 @@ nix-shell -p squashfsTools
 ### Create the PND
 
 1. Increment build number in `PXML.xml`
-2. Ensure i18n files are up to date
-3. `./make.sh`
+2. Use content: `/home/user/librepcb`
+3. Ensure i18n files are up to date
+4. Ensure share folder is up to date
+5. `./make.sh`
+
+### Debugging the PND
+
+1. Mount the pnd: `/usr/pandora/scripts/pnd_run.sh -p /path/to/your/pnd/librepcb.pnd -m`
+2. Run the start.sh `./start.sh`
 

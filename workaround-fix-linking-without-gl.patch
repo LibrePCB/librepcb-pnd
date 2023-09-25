@@ -1,0 +1,56 @@
+diff --git a/libs/librepcb/editor/3d/opengltriangleobject.cpp b/libs/librepcb/editor/3d/opengltriangleobject.cpp
+index 5f777ec59..6daab91d9 100644
+--- a/libs/librepcb/editor/3d/opengltriangleobject.cpp
++++ b/libs/librepcb/editor/3d/opengltriangleobject.cpp
+@@ -81,7 +81,7 @@ void OpenGlTriangleObject::draw(QOpenGLFunctions& gl,
+   int vertexLocation = program.attributeLocation("a_position");
+   program.enableAttributeArray(vertexLocation);
+   program.setAttributeBuffer(vertexLocation, GL_FLOAT, 0, 3, sizeof(QVector3D));
+-  gl.glDrawArrays(GL_TRIANGLES, 0, mCount);
++//  gl.glDrawArrays(GL_TRIANGLES, 0, mCount);
+ }
+ 
+ /*******************************************************************************
+diff --git a/libs/librepcb/editor/widgets/openglview.cpp b/libs/librepcb/editor/widgets/openglview.cpp
+index e00e976cd..6e1c804bd 100644
+--- a/libs/librepcb/editor/widgets/openglview.cpp
++++ b/libs/librepcb/editor/widgets/openglview.cpp
+@@ -241,21 +241,21 @@ void OpenGlView::initializeGL() {
+              mProgram.log().split('\n', QString::SkipEmptyParts)) {
+       qCritical().noquote() << "OpenGL:" << line;
+     }
+-    glClearColor(1, 0, 0, 1);
++//    glClearColor(1, 0, 0, 1);
+     return;
+   }
+ 
+   // Use a background color which ensures good contrast to both black and white
+   // STEP models.
+-  glClearColor(0.9, 0.95, 1.0, 1);
++//  glClearColor(0.9, 0.95, 1.0, 1);
+ 
+   // Set OpenGL options.
+-  glEnable(GL_DEPTH_TEST);
+-  glEnable(GL_MULTISAMPLE);
+-  glEnable(GL_BLEND);
+-  glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+-  glEnable(GL_LINE_SMOOTH);
+-  glHint(GL_LINE_SMOOTH_HINT, GL_NICEST);
++//  glEnable(GL_DEPTH_TEST);
++//  glEnable(GL_MULTISAMPLE);
++//  glEnable(GL_BLEND);
++//  glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
++//  glEnable(GL_LINE_SMOOTH);
++//  glHint(GL_LINE_SMOOTH_HINT, GL_NICEST);
+ }
+ 
+ void OpenGlView::resizeGL(int w, int h) {
+@@ -273,7 +273,7 @@ void OpenGlView::paintGL() {
+   }
+ 
+   // Clear color and depth buffer.
+-  glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
++//  glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+ 
+   // Set modelview-projection matrix.
+   mProgram.setUniformValue("mvp_matrix", mProjection * mTransform);
